@@ -36,13 +36,5 @@ var Queue = function() {
   return someInstance;
 };
 
-//var someObj = Queue();
-// var someOtherObj = Queue();
-console.log(someObj)
-
-// console.log(someObj.enqueue('ted')); // {1: ted}
-// console.log(someObj.enqueue('2'));  // {1: ted, 2: 2}
-// console.log(someObj.enqueue('undefined')); // {1: ted, 2: 2, 3: undefined}
-// console.log(someObj.dequeue()); // {2: 2, 3: undefined}
 
 
