@@ -8,7 +8,7 @@ var Set = function() {
 var setPrototype = {};
 
 setPrototype.add = function(item) {
-  if (this._storage.indexOf(item) !== -1) {
+  if (this._storage.includes(item)) {
     return;
   }
   this._storage.push(item);
