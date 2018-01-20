@@ -37,42 +37,6 @@ treeMethods.contains = function(target) {
   return false;
 };
 
-// var familyTree = Tree('Joe');
-// var someOtherTree = Tree('kyle')
-// familyTree.contains('Andy') // true
-// someOtherTree.contains('kyle') // true
-
-// familyTree =
-// {
-//   value: 'Joe',
-//   children: [
-//     {
-//       value: 'Tom',
-//       children: [
-//         {
-//           value: 'Sam',
-//           children: []
-//         }
-//       ]
-//     },
-
-//     {
-//       value: 'Andy',
-//       children: []
-//     }
-//   ]
-// }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
