@@ -50,14 +50,12 @@ binaryTreeMethods.contains = function (target) {
   }
 
   if (target < this.value) {
-
     if (this.left.contains(target)) {
       return true;
     }
   }
 
   if (target > this.value) {
-    // look right
     if (this.right.contains(target)) {
       return true;
     }

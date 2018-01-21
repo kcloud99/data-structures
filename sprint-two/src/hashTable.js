@@ -34,7 +34,6 @@ HashTable.prototype.insert = function(k, v) {
     // set key/value as tuple in bucket
     if (!updated) {
       bucket.push([k, v]);
-      this._storage.set(index, bucket);
     }
   }
 
@@ -72,14 +71,7 @@ HashTable.prototype.remove = function(k) {
     }
   }
 
-// go through buckets.length
-// if tuple[0] exists   delete tuple? or delete value of tuple?
-
-// remove k or k[v]
-
 };
-
-
 
 /*
  * Complexity: What is the time complexity of the above functions?
